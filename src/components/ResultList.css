@@ -1,0 +1,40 @@
+.display{
+    width: 400px;
+    background-color: rgba(25, 24, 52, 0.8);
+    box-shadow: -5px 5px rgb(10, 2, 46);
+    color: white;
+    line-height: 2;
+    padding-left:20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 50px;
+  }
+  
+  .display-list{
+    overflow-y: auto; 
+    max-height: 400px;
+    line-height: 2;
+  }
+  .display-list::-webkit-scrollbar{
+    display: none;
+  }
+  .result-name{
+    font-size: 1.3rem;
+    margin-top: 10px;
+  }
+  .result-name::first-letter{
+    text-transform: uppercase;
+  }
+  .eachResult{
+    display: flex;
+    background-color:rgba(21, 20, 56, 0.8);
+    margin-top: 10px;
+    padding-left: 20px;
+    justify-content: space-between;
+  }
+  
+  .addIcon{
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
